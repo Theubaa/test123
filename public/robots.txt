@@ -1,0 +1,23 @@
+
+User-agent: *
+Allow: /
+
+# Disallow paths that shouldn't be indexed
+Disallow: /404
+Disallow: /not-found
+
+# Sitemaps
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Bots allowed with full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
